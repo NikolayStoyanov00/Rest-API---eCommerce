@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>eCommerse.Data</id>
+    <version>1.0.0</version>
+    <authors>eCommerse.Data</authors>
+    <owners>eCommerse.Data</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="eCommerse.Models" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="3.1.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Data.dll" target="lib\netcoreapp3.1\eCommerse.Data.dll" />
+  </files>
+</package>

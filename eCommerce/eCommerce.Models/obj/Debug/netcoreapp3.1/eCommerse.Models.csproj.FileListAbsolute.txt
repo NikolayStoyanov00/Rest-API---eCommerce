@@ -1,0 +1,9 @@
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\bin\Debug\netcoreapp3.1\eCommerse.Models.deps.json
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\bin\Debug\netcoreapp3.1\eCommerse.Models.dll
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\bin\Debug\netcoreapp3.1\eCommerse.Models.pdb
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\obj\Debug\netcoreapp3.1\eCommerse.Models.csprojAssemblyReference.cache
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\obj\Debug\netcoreapp3.1\eCommerse.Models.csproj.CoreCompileInputs.cache
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\obj\Debug\netcoreapp3.1\eCommerse.Models.AssemblyInfoInputs.cache
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\obj\Debug\netcoreapp3.1\eCommerse.Models.AssemblyInfo.cs
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\obj\Debug\netcoreapp3.1\eCommerse.Models.dll
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Models\obj\Debug\netcoreapp3.1\eCommerse.Models.pdb

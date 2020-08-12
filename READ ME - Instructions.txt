@@ -1,0 +1,69 @@
+1.Disable SSL certificate verification from Postman's settings.
+---------------------------------------------------------------------------------------------------------------------
+2.Project eCommerce.Importer is the seeder. Running that project will generate
+ the database in the projectFolder/bin/Debug/netcoreapp3.1/eCommerceDatabase.db.
+---------------------------------------------------------------------------------------------------------------------
+3.The database file which is generated in the importer project needs to be copied in the main WebAPI project folder
+(if it's stupid, but it works, it's not that stupid).
+---------------------------------------------------------------------------------------------------------------------
+//                      API Requests documentation starting from here                      \\
+4.Login request: https://localhost:XXXXX/api/login, method: POST, requires body: 
+{
+    "Username": "test1",
+    "Password": "password1"
+}
+---------------------------------------------------------------------------------------------------------------------
+5.Register request: https://localhost:XXXXX/api/register, method: POST, requires body:
+{
+    "Username": "test1",
+    "Password": "password1",
+    "CurrencyCode": "USD" // Mock Data
+}
+---------------------------------------------------------------------------------------------------------------------
+6.Get all products request, allowed access for non-authenticated users: https://localhost:XXXXX/api/products, method: GET
+---------------------------------------------------------------------------------------------------------------------
+7.Get product by id, allowed access for non-authenticated users: https://localhost:XXXXX/api/products/{productId}/{userId}, method: GET
+The user Id is optional only if you want the price to be converterd to the currency code of the user, without userId, the response
+ will return original price of the product. Also authorization is required if you use userId (to ensure no security breaches).
+---------------------------------------------------------------------------------------------------------------------
+8.Create product - name, price and image url are required. The assignment said only name and price, but I thought that imageUrl
+would be great to have. Requires authorization via Bearer token, URL: https://localhost:XXXXX/api/products/create, method: POST,
+Body: 
+{
+    "Name": "Product created via API",
+    "Price": 66.66,
+    "ImageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+}
+---------------------------------------------------------------------------------------------------------------------
+9.Delete product - requires authorization via Bearer token, URL: https://localhost:XXXXX/api/products/delete/{productId}, method: DELETE
+---------------------------------------------------------------------------------------------------------------------
+10.Create order - requires authorization via Bearer token, URL: https://localhost:XXXXX/api/orders, method: POST, Body:
+{
+    "UserId": 1,
+    "OrderProducts": [
+        {
+            "Product": {
+                "Id": 1,
+                "Name": "Rubberised Print T-Shirt",
+                "Price": 9.99,
+                "ImageUrl": "https://st.depositphotos.com/2251265/4803/i/450/depositphotos_48037605-stock-photo-man-wearing-t-shirt.jpg"
+            }
+        },
+        {
+            "Product": {
+                "Id": 2,
+                "Name": "Contrast Top TRF",
+                "Price": 11.99,
+                "ImageUrl": "https://picture-cdn.wheretoget.it/tvrznj-i.jpg"
+            }
+        }
+    ],
+    "Status": 1
+}
+---------------------------------------------------------------------------------------------------------------------
+11.Change order status - requires authorization via Bearer token, URL: https://localhost:XXXXX/api/orders/{orderId}, method: PUT, Body:
+Only the status name for example: "Payment".
+---------------------------------------------------------------------------------------------------------------------
+12. Get user orders - requires authorization via Bearer token, URL: https://localhost:XXXXX/api/orders/{userId}, method: GET
+---------------------------------------------------------------------------------------------------------------------
+The total price is calculated per user's currency code via the free API which is required in the assignment.

@@ -1,0 +1,15 @@
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Data.deps.json
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Data.dll
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.csprojAssemblyReference.cache
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.AssemblyInfoInputs.cache
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.AssemblyInfo.cs
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Data.pdb
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Models.dll
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Models.pdb
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.csproj.CopyComplete
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.dll
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.pdb
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.csproj.CoreCompileInputs.cache
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Data.runtimeconfig.json
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\bin\Debug\netcoreapp3.1\eCommerse.Data.runtimeconfig.dev.json
+D:\Програмиране\Rest API Task - eCommerce\eCommerse.Web\eCommerse.Data\obj\Debug\netcoreapp3.1\eCommerse.Data.genruntimeconfig.cache
